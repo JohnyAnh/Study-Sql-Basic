@@ -24,9 +24,9 @@ WHERE  ShipCountry LIKE 'U%';
 --BT lay tat ca cac nha cung cap co chu 'b' trong ten cua cong ty
 SELECT *
 FROM Suppliers
-WHERE CompanyName LIKE 'b%';
+WHERE CompanyName LIKE '%b%';
 
 --BT lay tat ca cac nha cung cap co o thanh pho co chu 'o' trong ten cua cong ty
 SELECT *
 FROM Suppliers
-WHERE City LIKE 'o%';
+WHERE City LIKE '%o%';
